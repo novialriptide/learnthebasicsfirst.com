@@ -1,0 +1,40 @@
+:root {
+    --level1: #242424;
+    --level2: #323232;
+    --level3: #979797;
+    --level4: #bebebe;
+}
+
+body {
+    font-family: 'Gantari', sans-serif;
+    color: var(--level4);
+    background-color: var(--level1);
+    color-scheme: light dark;
+    padding: 30px;
+    margin: auto;
+    font-size: 120%;
+    width: 40%;
+}
+
+footer {
+    font-size: 50%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    line-height: 2px;
+    width: 100%;
+    background-color: var(--level2);
+    color: var(--level3);
+  }
+
+blockquote {
+    background-color: var(--level2);
+    padding: 20px;
+}
+
+blockquote > .name {
+    border-left-color: var(--level2);
+    font-weight: bold;
+}
